@@ -1,0 +1,27 @@
+/* Body color */
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: hsl(187, 18%, 51%);
+}
+.map {
+    border: 3px solid black;
+    background-color: hsl(187, 42%, 77%) ;
+}
+
+/* The map and border colors */
+.country {
+    fill: rgb(205, 210, 205); 
+    stroke: black;
+    stroke-width: 0.3;
+    stroke-opacity: 20;
+}
+
+/* Town pointer and details  */
+.town-circle {
+    fill: rgb(95, 97, 98); 
+}
+
+.town-circle:hover {
+    fill: #ed051c;
+}
